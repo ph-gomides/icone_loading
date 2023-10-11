@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+
+}
+
+.loader{
+    width: 5rem;
+    height: 5rem;
+    border: 0.5rem solid grey;
+    border-top-color: red;
+    border-radius: 50%;
+    animation: load-animacao 1s infinite;
+
+}
+
+@keyframes load-animacao {
+    to{
+        transform: rotate(1turn);
+    }
+    
+
+}
