@@ -9,6 +9,12 @@ body{
 
 }
 
+.teste{
+    display: flex;
+    align-self: start;
+    
+}
+
 .loader{
     width: 5rem;
     height: 5rem;
